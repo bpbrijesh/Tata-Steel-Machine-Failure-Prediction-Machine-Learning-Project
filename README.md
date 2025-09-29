@@ -33,3 +33,21 @@ Machine type included in this dataset:
   * **PWF(Power Failure):** Indicates whether the machine failed due to a Power problem.
   * **OSF (Overstrain Failure):** Indicates whether the machine failed due to being overstrained.
   * **RNF (Random Failure):** Indicates whether the machine failed due to random or unspecified reasons.
+
+## Methodology
+Stages Employed in this Project:
+* Exploratory Data Analysis: Data Visualization, Storytelling & Experimenting with charts: Understanding the relationships between variables
+* Data Pre-Processing: Categorical Encoding, Data Scaling etc.
+* Model Implementation:
+   * AdaBoost Classifier
+   * CatBoost Classifier
+   * LightGBM
+   * Logistic Regression
+   * XGBoost Classifier
+* Hyperparameter Optimizer:
+   * Randomized SearchCV (CatBoost, LightGBM, Logistic Regression, and XGBoost)
+   * HyperOpt (CatBoost, LightGBM, and XGBoost)
+   * Optuna (LightGBM and XGBoost)
+* Model Performance Comparison:
+   * Evaluation Scores
+   * Confusion Matrices
