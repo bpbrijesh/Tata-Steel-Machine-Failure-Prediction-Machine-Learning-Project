@@ -1,4 +1,3 @@
-# Ek Tu Hi Nirankar
 # Machine Learning Project- Machine Failure Prediction
 ## **Project Discription**
 For an industry, machines are most important parts because they enables mass production, significantly boost productivity and efficiency, ensures high precision and consistant quality, and they can perform dangerous task to improve safety. These importance are only applicable if the machine is operational, If machine fails, they can lead to production disruptions, increase maintanance cost, safety concerns, and verious other problems. 
